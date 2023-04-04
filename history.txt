@@ -1,0 +1,211 @@
+    1  gedit
+    2  docker
+    3  mkdir Flask-Docker-App
+    4  cd Flask-Docker-App/
+    5  py -3 -m venv venv
+    6  python3 -m venv venv
+    7  ls
+    8  ls venv/
+    9  . venv/bin/activate
+   10  pip install Flask
+   11  touch app.py Dockerfile
+   12  python app.py
+   13  docker build --tag python-docker .
+   14  ls
+   15  touch requirements.txt
+   16  docker build --tag python-docker .
+   17  docker images
+   18  docker run python-docker
+   19  docker build --tag python-docker .
+   20  docker images
+   21  docker run python-docker
+   22  docker run -d -p 5000:5000 python-docker
+   23  curl -OL https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.rpm
+   24  rpm -i dive_0.9.2_linux_amd64.rpm
+   25  sudo rpm -i dive_0.9.2_linux_amd64.rpm
+   26  dive
+   27  dive python-docker
+   28  docker run -it python-docker bash
+   29  exit
+   30  docker save python-docker > python-docker.tar
+   31  docker images
+   32  docker run -it 344e24aadcbc bash
+   33  docker
+   34  docker-machine
+   35  clear
+   36  docker-machine
+   37  ls
+   38  cd Flask-Docker-App/
+   39  ls
+   40  docker build .
+   41  docker ps
+   42  docker run -d -p 5000:5000 python-docker
+   43  docker ps
+   44  ls
+   45  cat app
+   46  cat app.py 
+   47  clear
+   48  ls
+   49  rm dive_0.9.2_linux_amd64.rpm 
+   50  rm myfastf1plots.py 
+   51  clear
+   52  ls
+   53  cd venv/
+   54  ls
+   55  cd libib6
+   56  cd lib64/
+   57  ls
+   58  cd ..
+   59  cd lib
+   60  ls
+   61  cd ..
+   62  cd include/
+   63  ls
+   64  cd ..
+   65  cd bin
+   66  ls
+   67  cd ..
+   68  cd share/
+   69  ls
+   70  cd man/
+   71  ls
+   72  cd man1/
+   73  ls
+   74  cd ..
+   75  clear
+   76  docker images ls
+   77  docker image ls
+   78  docker run -d -p 5000:5000 e336df7d915b
+   79  docker ps
+   80  docker kill a8945a3b1f76
+   81  docker run -d -p 5000:5000 e336df7d915b
+   82  clear
+   83  docker run -it -p 5000:5000 e336df7d915b
+   84  docker ps
+   85  docker kill 19105a7b1010
+   86  docker run -it -p 5000:5000 e336df7d915b
+   87  clear
+   88  history
+   89  python app.py
+   90  . venv/bin/activate
+   91  python app.py
+   92  hisotry
+   93  history
+   94  pip install fastf1
+   95  python app.py
+   96  docker build .
+   97  docker image ls
+   98  docker run -it -p 5000:5000 9bfaf213e929
+   99  clear
+  100  docker login
+  101  docker push
+  102  docker image ls
+  103  docker push fastf1-flask
+  104  docker image tag 
+  105  docker image tag 9bfaf213e929 fastf1-flask
+  106  docker image ls
+  107  docker push fastf1-flask
+  108  docker push n1c0la84/fastf1-flask
+  109  docker image tag fastf1-flask n1c0la84/fastf1-flask
+  110  docker push n1c0la84/fastf1-flask
+  111  docker image ls
+  112  clear
+  113  docker image ls
+  114  history .
+  115  history 
+  116  . venv/bin/activate
+  117  cd Flask-Docker-App/
+  118  . venv/bin/activate
+  119  python app.py
+  120  ls
+  121  python app.py
+  122  clear
+  123  history
+  124  docker build .
+  125  docker image ls
+  126  docker image tag 3afe24bab1d1 n1c0la084/fastf1-flask:1.0
+  127  docker image ls
+  128  docker push n1c0la084/fastf1-flask:1.0
+  129  docker login
+  130  docker push n1c0la084/fastf1-flask:1.0
+  131  docker logout
+  132  docker login
+  133  docker push n1c0la084/fastf1-flask:1.0
+  134  docker login
+  135  docker push n1c0la084/fastf1-flask:1.0
+  136  docker image tag 3afe24bab1d1 n1c0la084/fastf1-flask
+  137  docker push n1c0la084/fastf1-flask
+  138  cd Flask-Docker-App/
+  139  docker run -d -p 5000:5000 n1c0la84/fastf1-flask:1.0
+  140  docker run -d -p 5000:5000 n1c0la84/fastf1-flask
+  141  docker run -d -p 5000:5000 n1c0la84/fastf1-flask:1.0
+  142  docker image ls
+  143  docker image tag 3afe24bab1d1 n1c0la84/fastf1-flsk:1.0
+  144  docker image ls
+  145  docker image tag 3afe24bab1d1 n1c0la84/fastf1-flsk:1.0
+  146  docker run -d -p 5000:5000 n1c0la84/fastf1-flask:1.0
+  147  docker image ls
+  148  docker run -d -p 5000:5000 n1c0la84/fastf1-flsk:1.0
+  149  docker image tag 3afe24bab1d1 n1c0la84/fastf1-flask:1.0
+  150  clear
+  151  docker image ls
+  152  docker push n1c0la084/fastf1-flask:1.0
+  153  docker push n1c0la84/fastf1-flask:1.0
+  154  history
+  155  man python3
+  156  . venv/bin/activate
+  157  cd Flask-Docker-App/
+  158  . venv/bin/activate
+  159  pip freeze
+  160  pip freeze > requirements.txt
+  161  cat requirements.txt 
+  162  ls
+  163  cat Dockerfile 
+  164  nano Dockerfile 
+  165  vim Dockerfile 
+  166  nano Dockerfile 
+  167  cat Dockerfile 
+  168  vim Dockerfile 
+  169  cat Dockerfile 
+  170  clear
+  171  cat Dockerfile 
+  172  sudo dnf update
+  173  sudo dnf install openfpgaloader
+  174  sudo dnf copr enable mobicarte/openFPGALoader
+  175  sudo dnf install openfpgaloader
+  176  ls -la
+  177  cd Flask-Docker-App/
+  178  ls
+  179  cat app.py 
+  180  git init
+  181  sudo dnf install git
+  182  git init
+  183  git add *
+  184  git commit -m "First commit"
+  185  git config --global user.email "nicola084@gmail.com"
+  186  git commit -m "First commit"
+  187  git config --global user.name "n1c0la84"
+  188  git commit -m "First commit"
+  189  fit remote add FastF1-webapp https://github.com/n1c0la84/FastF1-webapp.git
+  190  git remote add FastF1-webapp https://github.com/n1c0la84/FastF1-webapp.git
+  191  git push -u FastF1-webapp https://github.com/n1c0la84/FastF1-webapp.git
+  192  git push -u FastF1-webapp main
+  193  git push FastF1-webapp main
+  194  git remote -v
+  195  git remote add origin FastF1-webapp https://github.com/n1c0la84/FastF1-webapp.git
+  196  git push origin main
+  197  git branch -M main
+  198  git push origin main
+  199  git config -l
+  200  git config --global credential.helper wincred
+  201  git push origin main
+  202  git remote -v
+  203  git push -u FastF1-webapp main
+  204  git config --global credential.helper cache
+  205  git push -u FastF1-webapp main
+  206  clear
+  207  ls
+  208  cd venv/
+  209  ls
+  210  cat pyvenv.cfg 
+  211  history > history.txt
